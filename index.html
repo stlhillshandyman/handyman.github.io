@@ -1,12 +1,191 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+  <head>
+    <title>The St. Louis Hills Handyman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body {
+        font-family: "courier new", monospace;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-size: 4vw;
+      }
 
-<h1>The STL Hills Handyman</h1>
-  <div id="783594f0-f920-416a-88d6-9570f0bb0f0c"></div>
-<link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
-<script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="783594f0-f920-416a-88d6-9570f0bb0f0c" form_url="https://clienthub.getjobber.com/client_hubs/783594f0-f920-416a-88d6-9570f0bb0f0c/public/work_request/embedded_work_request_form"></script>
+      .b {
+        display: none;
+      }
 
+      @media (min-width: 768px) {
+        html,
+        body {
+          font-size: 1.3em;
+        }
+        .b {
+          display: inline;
+          padding: 0 0.5em;
+        }
+      }
 
-</body>
+      header {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header nav {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        color: white;
+      }
+
+      content {
+        display: block;
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Georgia", serif;
+        overflow: hidden;
+        padding-bottom: 1em;
+      }
+
+      .parallax {
+        /* The image used */
+        background-image: url("https://images.squarespace-cdn.com/content/v1/56ec101db09f95da37e77918/1458317460088-Z27X14MAB5X7CAC0DBOG/SQS_DK_carlos_0226-e.jpg?format=2500w");
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: calc(-57px + 70vh);
+      }
+
+      .alt {
+        background-color: #262626;
+        color: white;
+      }
+
+      .fat {
+        padding: 4em 20px;
+      }
+
+      footer {
+        background-color: #262626;
+        color: white;
+        padding: 20px;
+        height: 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="parallax">
+      <content>
+        <h1>Saint Louis Hills Handyman</h1>
+        <strong>734-224-8469</strong>
+        <span class="b">|</span>
+        <strong>requests@stlhillshandyman.com</strong>
+      </content>
+    </header>
+    <section class="fat">
+      <content>
+        Hi, I'm Tim, a software engineer by profession and a handyman by
+        passion. By day, I write code and solve problems in the tech world; by
+        night and weekends, I tackle home improvement projects and help my
+        neighbors keep their homes in top shape. Whether it's fixing a leaky
+        faucet or giving your space a fresh look, I'm here to lend a hand.
+      </content>
+    </section>
+    <section class="alt">
+      <content id="services">
+        <h2>Services</h2>
+        <h3>Carpentry</h3>
+        <p>
+          Carpentry is where it all began for me. I specialize in installing and
+          building custom cabinets, bookcases, fireplace mantels, and more. From
+          detailed craftsmanship to creative designs, I bring your vision to
+          life with precision and care.
+        </p>
+
+        <h3>Plumbing</h3>
+        <p>
+          Don't let a leaky faucet or an outdated toilet drain your time and
+          money. I handle plumbing repairs and upgrades efficiently, ensuring
+          your home runs smoothly and water flows just as it should.
+        </p>
+
+        <h3>Installations</h3>
+        <p>
+          Need a new toilet or faucet installed? I handle bathroom and kitchen
+          installations with expertise, ensuring everything fits and functions
+          perfectly.
+        </p>
+
+        <h3>Electrical</h3>
+        <p>
+          For smaller electrical projects like installing ceiling fans or light
+          dimmers, I’m your go-to handyman. I’ve honed my skills through
+          hands-on experience, making sure your home is well-lit and
+          energy-efficient.
+        </p>
+
+        <h3>Fixtures</h3>
+        <p>
+          Have a chandelier or ceiling fan that needs installing? I’ve got you
+          covered. I’ll handle the job with care, making sure your new fixture
+          is securely and beautifully in place.
+        </p>
+
+        <h3>Switches & Dimmers</h3>
+        <p>
+          The right dimmer switch can do more than set the mood—it can also help
+          you save on energy costs. I install and adjust switches and dimmers to
+          match your needs, giving you control over your lighting.
+        </p>
+      </content>
+    </section>
+    <section id="contact">
+      <content>
+        <h2>Schedule Appointment</h2>
+        <p>
+          All estimates are free and flexible according to materials and
+          scheduling.
+        </p>
+        <p>Phone: 734-224-8469</p>
+        <p>Email: requests@stlhillshandyman.com</p>
+      </content>
+    </section>
+    <footer>
+      <a href="https://www.facebook.com/profile.php?id=61563748071996"
+        >Facebook</a
+      >
+      <span class="b">|</span> 
+      <a href="https://www.instagram.com/stlhillshandyman/">Instagram</a>
+    </footer>
+  </body>
 </html>
